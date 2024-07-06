@@ -1,0 +1,22 @@
+{
+  "name": "batch-convert-images",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "batch-convert-images": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["image", "conversion", "png", "webp", "batch"],
+  "author": "Aurélie Richard <aurelierichard2048@gmail.com>",
+  "license": "MIT",
+  "description": "A tool to batch convert PNG images to WebP format.",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
+    "progress": "^2.0.3",
+    "sharp": "^0.33.4",
+    "yargs": "^17.7.2"
+  }
+}
